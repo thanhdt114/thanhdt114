@@ -9,8 +9,8 @@
     />
     <meta name="description" content="" />
     <title>Johnny</title>
-    <link rel="stylesheet" href="nicepage.css" media="screen" />
-    <link rel="stylesheet" href="Home-1.css" media="screen" />
+    <link rel="stylesheet" href="css/nicepage.css" media="screen" />
+    <link rel="stylesheet" href="css/Home-1.css" media="screen" />
     <script
       class="u-script"
       type="text/javascript"
@@ -38,7 +38,8 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- <link rel="stylesheet" href="css/index-phone.css" /> -->
 
     <script type="application/ld+json">
       {
@@ -52,6 +53,11 @@
     <meta property="og:title" content="Home 1" />
     <meta property="og:type" content="website" />
     <meta data-intl-tel-input-cdn-path="intlTelInput/" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/index.js"></script>
   </head>
   <body
     data-home-page="https://website5996200.nicepage.io/Home-1.html?version=100db732-f7c7-d600-840e-ea96506a804b"
@@ -60,7 +66,7 @@
     class="u-body u-xl-mode"
     data-lang="en"
   >
-    <header>
+    <!-- <header>
       <nav
         class="navbar navbar-expand-sm justify-content-center"
         style="background-color: #242526"
@@ -70,50 +76,79 @@
         </a>
         <ul class="navbar-nav me-5" style="margin: 0">
           <li class="nav-item fs-5 ms-3 me-3">
-            <a class="nav-link" href="#carousel_65e8" style="color: #b0b3b8"
-              >Home</a
-            >
+            <a class="nav-link nav-color" href="#carousel_65e8">Home</a>
           </li>
           <li class="nav-item fs-5 ms-3 me-3">
-            <a class="nav-link" href="#carousel_c4c2" style="color: #b0b3b8"
-              >Skills</a
-            >
+            <a class="nav-link nav-color" href="#carousel_c4c2">Skills</a>
           </li>
           <li class="nav-item fs-5 ms-3 me-3">
-            <a class="nav-link" href="#carousel_72d0" style="color: #b0b3b8"
-              >Introduction</a
-            >
+            <a class="nav-link nav-color" href="#carousel_72d0">Introduction</a>
           </li>
           <li class="nav-item fs-5 ms-3 me-3">
-            <a class="nav-link" href="#carousel_9ced" style="color: #b0b3b8"
-              >Mindset</a
-            >
+            <a class="nav-link nav-color" href="#carousel_9ced">Mindset</a>
           </li>
           <li class="nav-item fs-5 ms-3 me-3">
-            <a class="nav-link" href="#carousel_8a9b" style="color: #b0b3b8"
-              >University</a
-            >
+            <a class="nav-link nav-color" href="#carousel_8a9b">University</a>
           </li>
           <li class="nav-item fs-5 ms-3 me-3">
-            <a class="nav-link" href="#carousel_2dc0" style="color: #b0b3b8"
-              >Photos</a
-            >
+            <a class="nav-link nav-color" href="#carousel_2dc0">Photos</a>
           </li>
           <li class="nav-item fs-5 ms-3 me-3">
-            <a class="nav-link" href="#carousel_6842" style="color: #b0b3b8"
-              >Contact</a
-            >
+            <a class="nav-link nav-color" href="#carousel_6842">Contact</a>
           </li>
         </ul>
       </nav>
+    </header> -->
+
+    <header>
+      <nav
+        class="navbar navbar-expand-sm  navbar-dark justify-content-center"
+        style="background-color: #242526"
+      >
+      <div class="container-fluid">
+        <a class="navbar-brand me-auto ms-5" href="#">
+          <img src="Image/logo.jpg" alt="Avatar Logo" style="width: 150px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav me-5" style="margin: 0">
+            <li class="nav-item fs-5 ms-3 me-3">
+              <a class="nav-link nav-color" href="#carousel_65e8">Home</a>
+            </li>
+            <li class="nav-item fs-5 ms-3 me-3">
+              <a class="nav-link nav-color" href="#carousel_c4c2">Skills</a>
+            </li>
+            <li class="nav-item fs-5 ms-3 me-3">
+              <a class="nav-link nav-color" href="#carousel_72d0">Introduction</a>
+            </li>
+            <li class="nav-item fs-5 ms-3 me-3">
+              <a class="nav-link nav-color" href="#carousel_9ced">Mindset</a>
+            </li>
+            <li class="nav-item fs-5 ms-3 me-3">
+              <a class="nav-link nav-color" href="#carousel_8a9b">University</a>
+            </li>
+            <li class="nav-item fs-5 ms-3 me-3">
+              <a class="nav-link nav-color" href="#carousel_2dc0">Photos</a>
+            </li>
+            <li class="nav-item fs-5 ms-3 me-3">
+              <a class="nav-link nav-color" href="#carousel_6842">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+        
+      </nav>
     </header>
+
     <section
       class="u-align-center u-clearfix u-section-1"
       id="carousel_65e8"
       style="margin-top: 70px"
     >
       <img
-        src="Image/software_developer.jpg"
+        src="Image/software-developer2.jpg"
         alt=""
         class="u-expanded-width u-image u-image-default u-image-1"
       />
@@ -202,8 +237,11 @@
               <a
                 href="https://www.geeksforgeeks.org/introduction-to-programming-languages"
                 class="u-border-1 u-border-hover-palette-2-light-2 u-border-white u-btn u-button-style u-none u-text-body-alt-color u-btn-1"
-                > programming languages</a
-              > using the platforms of these languages. In addition, I can also use microsoft office tools to serve me in the process of working 
+              >
+                programming languages</a
+              >
+              using the platforms of these languages. In addition, I can also
+              use microsoft office tools to serve me in the process of working
             </p>
             <a
               href="http://johnny.id.vn"
@@ -226,7 +264,7 @@
                   </div>
                   <div
                     class="u-align-left u-container-style u-layout-cell u-left-cell u-size-20 u-size-30-md u-white u-layout-cell-2"
-                    style="background-color: #e2b227"
+                    style="background-color: #18191a"
                   >
                     <div
                       class="u-container-layout u-valign-middle u-container-layout-3"
@@ -273,13 +311,14 @@
                       </h4>
                       <p class="u-text u-text-default u-text-grey-50 u-text-5">
                         Programming languages: JAVA, C#, C++, Python, HTML, CSS
-                        <br> Platforms: Spring Boot, Spring MVC, ASP.NET
+                        <br />
+                        Platforms: Spring Boot, Spring MVC, ASP.NET
                       </p>
                     </div>
                   </div>
                   <div
                     class="u-align-left u-container-style u-layout-cell u-left-cell u-size-20 u-size-60-md u-white u-layout-cell-3"
-                    style="background-color: #e2b227"
+                    style="background-color: #18191a"
                   >
                     <div
                       class="u-container-layout u-valign-middle u-container-layout-4"
@@ -325,7 +364,7 @@
                 <div class="u-layout-col">
                   <div
                     class="u-align-left u-container-style u-layout-cell u-right-cell u-size-20 u-size-30-md u-white u-layout-cell-4"
-                    style="background-color: #e2b227"
+                    style="background-color: #18191a"
                   >
                     <div
                       class="u-container-layout u-valign-middle u-container-layout-5"
@@ -396,13 +435,13 @@
                         Git
                       </h4>
                       <p class="u-text u-text-default u-text-grey-50 u-text-9">
-                        Github
+                        I'm using GitHub to host my project
                       </p>
                     </div>
                   </div>
                   <div
                     class="u-align-left u-container-style u-layout-cell u-right-cell u-size-20 u-size-30-md u-white u-layout-cell-5"
-                    style="background-color: #e2b227"
+                    style="background-color: #18191a"
                   >
                     <div
                       class="u-container-layout u-valign-middle u-container-layout-6"
@@ -476,7 +515,7 @@
       id="carousel_72d0"
     >
       <img
-        src="Image/software_developer.jpg"
+        src="Image/software-developer3.jpg"
         alt=""
         class="u-image u-image-default u-image-1"
       />
@@ -510,7 +549,7 @@
                     <h2
                       class="u-text u-text-default u-text-palette-2-base u-text-1"
                     >
-                    Solve 1 problem: 2W1H
+                      Solve 1 problem: 2W1H
                     </h2>
                     <ul class="u-custom-list u-text u-text-default u-text-2">
                       <li>
@@ -607,11 +646,13 @@
                   <div
                     class="u-container-layout u-valign-middle u-container-layout-4"
                   >
-                    <h2 class="u-text u-text-default u-text-4">
-                      About me
-                    </h2>
+                    <h2 class="u-text u-text-default u-text-4">About me</h2>
                     <p class="u-text u-text-default u-text-5">
-                      Hi, my name is Thanh but people often call me Johnny, currently I am living and working in Ho Chi Minh City, Vietnam, my main job is 1 developer building backend website. I like to train my body, plus I have a hobby of singing.
+                      Hi, my name is Thanh but people often call me Johnny,
+                      currently I am living and working in Ho Chi Minh City,
+                      Vietnam, my main job is 1 developer building backend
+                      website. I like to train my body, plus I have a hobby of
+                      singing.
                     </p>
 
                     <a
@@ -716,8 +757,10 @@
                     Thinking in life
                   </h2>
                   <p class="u-text u-text-2">
-                    You only really understand 1 problem when you can give yourself examples and explain to others.
-                    <br>In every argument as long as you can't keep your composure, you have lost.
+                    You only really understand 1 problem when you can give
+                    yourself examples and explain to others.
+                    <br />In every argument as long as you can't keep your
+                    composure, you have lost.
                   </p>
 
                   <a
@@ -788,15 +831,19 @@
                         class="u-container-layout u-valign-middle u-container-layout-1"
                       >
                         <h5 class="u-custom-font u-text u-text-font u-text-1">
-                          My University 
+                          My University
                         </h5>
                         <h2
                           class="u-custom-font u-font-oswald u-text u-text-palette-2-base u-text-2"
                         >
-                          HCMUTE 
+                          HCMUTE
                         </h2>
                         <p class="u-text u-text-3">
-                          Ho Chi Minh City University of Technology (HCMUT) is a renowned technical institution in Ho Chi Minh City, Vietnam. Established in 1962, it offers diverse engineering and technology programs, emphasizing practical skills and innovation.
+                          Ho Chi Minh City University of Technology (HCMUT) is a
+                          renowned technical institution in Ho Chi Minh City,
+                          Vietnam. Established in 1962, it offers diverse
+                          engineering and technology programs, emphasizing
+                          practical skills and innovation.
                         </p>
                         <span
                           class="u-icon u-icon-circle u-text-custom-color-4 u-icon-1"
@@ -857,7 +904,10 @@
                         >
                           <div
                             class="u-container-layout u-valign-middle u-container-layout-3"
-                            style="background-image: url('Image/logo-hcmute.jpg'); background-size: cover;"
+                            style="
+                              background-image: url('Image/logo-hcmute.jpg');
+                              background-size: cover;
+                            "
                           >
                             <!-- <h4 class="u-text u-text-4">CLIENTS</h4>
                             <h1 class="u-text u-text-5">8k</h1> -->
@@ -878,7 +928,10 @@
                     class="u-container-layout u-valign-top u-container-layout-4"
                   >
                     <p class="u-text u-text-custom-color-4 u-text-6">
-                      I studied Information Technology, majored in Software Engineering at HCMUTE, thanks to teachers and friends in school for giving me enough knowledge to later apply for a job in the field that I studied when I graduated.
+                      I studied Information Technology, majored in Software
+                      Engineering at HCMUTE, thanks to teachers and friends in
+                      school for giving me enough knowledge to later apply for a
+                      job in the field that I studied when I graduated.
                     </p>
                   </div>
                 </div>
@@ -893,7 +946,10 @@
                     >
                       <div
                         class="u-container-layout u-valign-middle u-container-layout-6"
-                        style="background-image: url('Image/hcmute.jpg'); background-size: cover;"
+                        style="
+                          background-image: url('Image/hcmute.jpg');
+                          background-size: cover;
+                        "
                       >
                         <!-- <h4 class="u-text u-text-custom-color-1 u-text-7">
                           AWARDS
@@ -916,7 +972,10 @@
                     >
                       <div
                         class="u-container-layout u-valign-middle u-container-layout-8"
-                        style="background-image: url('Image/19110CL1.png'); background-size: cover;"
+                        style="
+                          background-image: url('Image/19110CL1.png');
+                          background-size: cover;
+                        "
                       >
                         <!-- <h4 class="u-text u-text-body-alt-color u-text-9">
                           CASES
@@ -949,7 +1008,7 @@
                   class="u-container-layout u-valign-middle u-container-layout-1"
                 >
                   <h1 class="u-text u-text-palette-2-base u-text-1">
-                    Do you need a consultation?
+                    Do you need a Curriculum Vitae?
                   </h1>
                 </div>
               </div>
@@ -960,7 +1019,7 @@
                   class="u-container-layout u-valign-middle u-container-layout-2"
                 >
                   <a
-                    href="https://nicepage.com"
+                    href="https://drive.google.com/file/d/1GmWJB7DiwqDF0d5iHh3yp3573ayAVTm_/view?usp=sharing"
                     class="u-border-radius-50 u-btn u-btn-round u-button-style u-hover-palette-4-light-1 u-palette-2-base u-btn-1"
                     >learn more</a
                   >
@@ -1066,9 +1125,11 @@
                     <h5
                       class="u-custom-font u-font-roboto-condensed u-text u-text-1"
                     >
-                      Excepteur sint occaecat cupidatat
+                      Proficiency in a programming language.
                     </h5>
-                    <h2 class="u-text u-text-default u-text-2">Development</h2>
+                    <h2 class="u-text u-text-default u-text-2">
+                      Coding Skills
+                    </h2>
                   </div>
                 </div>
                 <div
@@ -1080,9 +1141,11 @@
                     <h5
                       class="u-custom-font u-font-roboto-condensed u-text u-text-default u-text-3"
                     >
-                      Duis aute irure dolor
+                      Ability to analyze and solve problems.
                     </h5>
-                    <h2 class="u-text u-text-default u-text-4">Leadership</h2>
+                    <h2 class="u-text u-text-default u-text-4">
+                      Problem-Solving
+                    </h2>
                   </div>
                 </div>
                 <div
@@ -1094,9 +1157,11 @@
                     <h5
                       class="u-custom-font u-font-roboto-condensed u-text u-text-default u-text-5"
                     >
-                      Excepteur sint occaecat cupidatat
+                      Capability to continuously learn and adapt.
                     </h5>
-                    <h2 class="u-text u-text-default u-text-6">Relevance</h2>
+                    <h2 class="u-text u-text-default u-text-6">
+                      Self-Learning
+                    </h2>
                   </div>
                 </div>
               </div>
@@ -1122,17 +1187,22 @@
                     >
                       Phone
                     </h4>
-                    <p class="u-text u-text-default u-text-10">+84335 783 669</p>
+                    <p class="u-text u-text-default u-text-10">
+                      +84335 783 669
+                    </p>
                     <h4
                       class="u-custom-font u-font-oswald u-text u-text-palette-3-base u-text-11"
                     >
                       Email
                     </h4>
-                    <a
+                    <p class="u-text u-text-default u-text-12">
+                      thanhdt114@gmail.com
+                    </p>
+                    <!-- <a
                       href="#"
-                      class="u-active-none u-border-2 u-border-palette-2-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-1"
+                      class="text-decoration-none u-active-none u-border-2 u-border-palette-2-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-btn-1"
                       >thanhdt114@gmail.com</a
-                    >
+                    > -->
                   </div>
                 </div>
                 <div
@@ -1145,18 +1215,32 @@
                       class="u-border-1 u-border-palette-4-base u-line u-line-horizontal u-line-1"
                     ></div>
                     <div class="u-social-icons u-spacing-20 u-social-icons-1">
-
-                      <a class="u-social-url" target="_blank" href="https://github.com/thanhdt114">
-                        <span class="u-icon u-icon-circle u-social-github u-social-type-logoColor u-icon-2">
+                      <a
+                        class="u-social-url"
+                        target="_blank"
+                        href="https://github.com/thanhdt114"
+                      >
+                        <span
+                          class="u-icon u-icon-circle u-social-github u-social-type-logoColor u-icon-2"
+                        >
                           <!-- Thay đổi mã SVG GitHub vào đây -->
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path fill="#dcdddd" d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.207 11.387.6.11.793-.262.793-.586 0-.287-.01-1.044-.015-2.044-3.387.734-4.1-1.582-4.1-1.582-.553-1.404-1.35-1.777-1.35-1.777-1.105-.754.084-.738.084-.738 1.22.086 1.865 1.254 1.865 1.254 1.084 1.854 2.845 1.321 3.54 1.008.11-.78.42-1.32.76-1.62-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.12-.3-.54-1.523.12-3.18 0 0 1.008-.324 3.3 1.23.96-.27 1.98-.405 3-.41 1.02.005 2.04.14 3 .41 2.28-1.554 3.288-1.23 3.288-1.23.66 1.656.24 2.88.12 3.18.78.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.21 0 1.594-.015 2.877-.015 3.277 0 .322.192.7.8.585C20.565 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12"/>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill="#dcdddd"
+                              d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.207 11.387.6.11.793-.262.793-.586 0-.287-.01-1.044-.015-2.044-3.387.734-4.1-1.582-4.1-1.582-.553-1.404-1.35-1.777-1.35-1.777-1.105-.754.084-.738.084-.738 1.22.086 1.865 1.254 1.865 1.254 1.084 1.854 2.845 1.321 3.54 1.008.11-.78.42-1.32.76-1.62-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.12-.3-.54-1.523.12-3.18 0 0 1.008-.324 3.3 1.23.96-.27 1.98-.405 3-.41 1.02.005 2.04.14 3 .41 2.28-1.554 3.288-1.23 3.288-1.23.66 1.656.24 2.88.12 3.18.78.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.21 0 1.594-.015 2.877-.015 3.277 0 .322.192.7.8.585C20.565 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12"
+                            />
                           </svg>
                           <!-- Kết thúc mã SVG GitHub -->
                         </span>
                       </a>
 
-                      <a class="u-social-url" target="_blank" href="https://www.facebook.com/thanhdt114"
+                      <a
+                        class="u-social-url"
+                        target="_blank"
+                        href="https://www.facebook.com/thanhdt114"
                         ><span
                           class="u-icon u-icon-circle u-social-facebook u-social-type-logoColor u-icon-1"
                           ><svg
@@ -1180,7 +1264,10 @@
                         ></span>
                       </a>
 
-                      <a class="u-social-url" target="_blank" href="https://www.youtube.com/@thanhdt114"
+                      <a
+                        class="u-social-url"
+                        target="_blank"
+                        href="https://www.youtube.com/@thanhdt114"
                         ><span
                           class="u-icon u-icon-circle u-social-type-logoColor u-social-youtube u-icon-4"
                           ><svg
@@ -1208,16 +1295,29 @@
                         ></span>
                       </a>
 
-                      <a class="u-social-url" target="_blank" href="https://www.linkedin.com/in/thanhdt114">
-                        <span class="u-icon u-icon-circle u-social-linkedin u-social-type-logoColor u-icon-3">
+                      <a
+                        class="u-social-url"
+                        target="_blank"
+                        href="https://www.linkedin.com/in/thanhdt114"
+                      >
+                        <span
+                          class="u-icon u-icon-circle u-social-linkedin u-social-type-logoColor u-icon-3"
+                        >
                           <!-- Mã SVG LinkedIn chính thống từ LinkedIn -->
-                          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 48 48">
-                            <path fill="#0077B5" d="M39.733 0H8.267C3.714 0 0 3.714 0 8.267v31.467C0 44.286 3.714 48 8.267 48h31.466C44.286 48 48 44.286 48 39.733V8.267C48 3.714 44.286 0 39.733 0zM14.8 39.733H9.6V20h5.2v19.733zM12.2 17.6c-1.733 0-3.2-1.467-3.2-3.2s1.467-3.2 3.2-3.2c1.734 0 3.2 1.467 3.2 3.2s-1.466 3.2-3.2 3.2zm25.333 22.133h-5.2v-10.4c0-2.733-.867-4.933-3.2-4.933-1.533 0-2.733 1.467-3.2 3-.133.4-.2.933-.2 1.467v10.867h-5.2V20h4.933l.267 3.067h.133c.533-1.6 1.866-3.133 4-3.133 2.933 0 5.133 2.4 5.133 6.067v11.8h-.067z"/>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="34"
+                            height="34"
+                            viewBox="0 0 48 48"
+                          >
+                            <path
+                              fill="#0077B5"
+                              d="M39.733 0H8.267C3.714 0 0 3.714 0 8.267v31.467C0 44.286 3.714 48 8.267 48h31.466C44.286 48 48 44.286 48 39.733V8.267C48 3.714 44.286 0 39.733 0zM14.8 39.733H9.6V20h5.2v19.733zM12.2 17.6c-1.733 0-3.2-1.467-3.2-3.2s1.467-3.2 3.2-3.2c1.734 0 3.2 1.467 3.2 3.2s-1.466 3.2-3.2 3.2zm25.333 22.133h-5.2v-10.4c0-2.733-.867-4.933-3.2-4.933-1.533 0-2.733 1.467-3.2 3-.133.4-.2.933-.2 1.467v10.867h-5.2V20h4.933l.267 3.067h.133c.533-1.6 1.866-3.133 4-3.133 2.933 0 5.133 2.4 5.133 6.067v11.8h-.067z"
+                            />
                           </svg>
                           <!-- Kết thúc mã SVG LinkedIn chính thống -->
                         </span>
                       </a>
-                      
                     </div>
                   </div>
                 </div>
@@ -1241,11 +1341,14 @@
                 <div
                   class="u-container-layout u-valign-top u-container-layout-1"
                 >
-                  <h6 class="u-text u-text-1">Headline</h6>
-                  <p class="u-small-text u-text u-text-variant u-text-2">
-                    Sample text. Click to select the text box. Click again or
-                    double click to start editing the text.
-                  </p>
+                  <h6 class="u-text u-text-1">Links</h6>
+                  <a
+                    class="u-small-text u-text u-text-variant u-text-4 text-white no-decoration"
+                    style="margin-bottom: 0"
+                    href="https://www.topcv.vn/p/thanhdt114?isView=1"
+                  >
+                    TopCV Profile
+                  </a>
                 </div>
               </div>
               <div
@@ -1254,10 +1357,21 @@
                 <div
                   class="u-container-layout u-valign-top u-container-layout-2"
                 >
-                  <h6 class="u-text u-text-3">Headline</h6>
-                  <p class="u-small-text u-text u-text-variant u-text-4">
-                    Sample footer text
-                  </p>
+                  <h6 class="u-text u-text-3">Information</h6>
+                  <a
+                    class="u-small-text u-text u-text-variant u-text-4 text-white no-decoration"
+                    style="margin-bottom: 0"
+                    href="https://github.com/thanhdt114/knowledge"
+                  >
+                    Knowledge
+                  </a>
+                  <a
+                    class="u-small-text u-text u-text-variant text-white no-decoration"
+                    style="margin-bottom: 0"
+                    href="https://drive.google.com/file/d/1GmWJB7DiwqDF0d5iHh3yp3573ayAVTm_/view?usp=sharing"
+                  >
+                    My CV
+                  </a>
                 </div>
               </div>
               <div
@@ -1266,10 +1380,21 @@
                 <div
                   class="u-container-layout u-valign-top u-container-layout-3"
                 >
-                  <h6 class="u-text u-text-5">Headline</h6>
-                  <p class="u-small-text u-text u-text-variant u-text-6">
-                    Sample footer text
-                  </p>
+                  <h6 class="u-text u-text-5">Certification</h6>
+                  <a
+                    class="u-small-text u-text u-text-variant u-text-4 text-white no-decoration"
+                    style="margin-bottom: 0"
+                    href="https://www.credly.com/badges/8b164572-aeea-454b-9ed5-de4fef85474a"
+                  >
+                    Cloud Foundations
+                  </a>
+                  <a
+                    class="u-small-text u-text u-text-variant text-white no-decoration"
+                    style="margin-bottom: 0"
+                    href="https://codelearn.io/certification/ndi0zmqy"
+                  >
+                    Java fundamentals
+                  </a>
                 </div>
               </div>
             </div>
@@ -1279,7 +1404,7 @@
     </footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <a
-        class="u-link"
+        class="u-link text-white"
         href="https://nicepage.com/website-templates"
         target="_blank"
       >
@@ -1288,7 +1413,7 @@
       <p class="u-text">
         <span>created with</span>
       </p>
-      <a class="u-link" href="" target="_blank">
+      <a class="u-link text-white" href="" target="_blank">
         <span>Website Builder Software</span> </a
       >.
     </section>

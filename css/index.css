@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.no-decoration {
+    text-decoration: none; /* Loại bỏ gạch chân mặc định */
+}
+
+.no-decoration:hover {
+    text-decoration: underline; /* Thêm gạch chân khi di chuột vào */
+}
+
+.nav-color {
+    color: #b0b3b8;
+    /* background-color: #b0b3b8; */
+}
+
+.nav-color:hover {
+    /* color: #e2b227; */
+    color: #ffffff;
+    /* font-weight: bold; */
+}

@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  .navbar-brand {
+    margin: 0; /* Loại bỏ khoảng cách trái và phải của thương hiệu */
+    text-align: center; /* Canh giữa nội dung thương hiệu */
+  }
+
+  .navbar-nav {
+    flex-direction: column; /* Hiển thị các mục liên kết dưới dạng danh sách dọc */
+    align-items: center; /* Canh giữa mục liên kết */
+    padding: 0; /* Loại bỏ khoảng cách bên trái của danh sách */
+  }
+
+  .nav-item {
+    margin: 10px 0; /* Tạo khoảng cách giữa các mục liên kết */
+  }
+}
