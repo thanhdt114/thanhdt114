@@ -31,3 +31,16 @@ header{
     color: #ffffff;
     /* font-weight: bold; */
 }
+
+.logo-nav {
+    color: #e2b227; 
+    font-weight: bold;
+}
+
+.logo-nav:hover {
+    color: #e2b227; 
+}
+
+.logo-nav-img {
+    /* margin-right: 10px; */
+}
